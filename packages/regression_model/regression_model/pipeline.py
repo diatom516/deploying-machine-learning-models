@@ -8,7 +8,6 @@ from regression_model.config import config
 
 import logging
 
-#provide logging information
 _logger = logging.getLogger(__name__)
 
 
