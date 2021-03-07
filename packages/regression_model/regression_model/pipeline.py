@@ -15,6 +15,8 @@ _logger = logging.getLogger(__name__)
 price_pipe = Pipeline(
     [
         (
+
+            
             "categorical_imputer",
             pp.CategoricalImputer(variables=config.CATEGORICAL_VARS_WITH_NA),
         ),
